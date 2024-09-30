@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
-       monospace: "'Space Mono', monospace;"
+        monospace: "'Space Mono', monospace;",
       },
       backgroundImage: {
         'custom-gradient':
@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         'primary-green': '#1b9876',
+        hoverColor: '#a3c2c2',
       },
     },
   },
