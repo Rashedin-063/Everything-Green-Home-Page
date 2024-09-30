@@ -14,17 +14,37 @@ const Navbar = () => {
   // dynamic menu items
   const menu = (
     <>
-      <li className='hover:text-hoverColor'>
-        <a href='https://everythinggreen.org/sustainable-website-hong-kong'>Sustainable Website</a>
+      <li>
+        <a
+          className='hover:text-hoverColor hover:bg-transparent'
+          href='https://everythinggreen.org/sustainable-website-hong-kong'
+        >
+          Sustainable Website
+        </a>
       </li>
-      <li className='hover:text-hoverColor'>
-        <a href='https://blog.everythinggreen.org'>Blog</a>
+      <li>
+        <a
+          className='hover:text-hoverColor hover:bg-transparent'
+          href='https://blog.everythinggreen.org'
+        >
+          Blog
+        </a>
       </li>
-      <li className='hover:text-hoverColor'>
-        <a href='https://everythinggreen.org/contact-us'>Contact Us</a>
+      <li>
+        <a
+          className='hover:text-hoverColor hover:bg-transparent'
+          href='https://everythinggreen.org/contact-us'
+        >
+          Contact Us
+        </a>
       </li>
-      <li className='hover:text-hoverColor'>
-        <a href='https://everythinggreen.org/login'>Login</a>
+      <li>
+        <a
+          className='hover:text-hoverColor hover:bg-transparent'
+          href='https://everythinggreen.org/login'
+        >
+          Login
+        </a>
       </li>
     </>
   );
@@ -73,7 +93,7 @@ const Navbar = () => {
       </div>
       {/* menu small and medium screen */}
       {/* menu */}
-      <div className='bg-white -mt-12'>
+      <div className='bg-white -mt-12 lg:-mt-0'>
         <ul
           className={` lg:hidden mt-8 p-2  w-full text-black flex flex-col items-center transition-all space-y-2 pt-8 duration-300 ease-in-out ${
             isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'

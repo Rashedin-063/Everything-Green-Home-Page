@@ -15,6 +15,9 @@ module.exports = {
         'primary-green': '#1b9876',
         hoverColor: '#a3c2c2',
       },
+      boxShadow: {
+        custom: '4px 4px 24px 10px rgba(0, 0, 0, 0.25)',
+      },
     },
   },
   plugins: [require('daisyui')],
