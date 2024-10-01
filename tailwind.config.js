@@ -18,6 +18,13 @@ module.exports = {
       boxShadow: {
         custom: '4px 4px 24px 10px rgba(0, 0, 0, 0.25)',
       },
+      screens: {
+        sm: '500px',
+        md: '680px', 
+        lg: '1024px',
+        xl: '1280px',
+        xxl: '1500px'
+      },
     },
   },
   plugins: [require('daisyui')],

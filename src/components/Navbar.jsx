@@ -2,7 +2,7 @@ import logoBlack from '../assets/logo.png'
 import logoWhite from '../assets/logo-white.png'
 import { FaBars } from 'react-icons/fa';
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
