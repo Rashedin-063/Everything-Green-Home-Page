@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import FirstText from "./components/FirstText";
+import Newsletter from "./components/Newsletter";
 import SecondText from "./components/SecondText";
 import SectionTitle from "./components/SectionTitle";
 
@@ -21,8 +22,9 @@ const TitleTwo = (
       <FirstText />
       <SectionTitle title={TitleOne} />
       <Card/>
-      <SectionTitle title={TitleTwo} />
       <SecondText/>
+      <SectionTitle title={TitleTwo} />
+      <Newsletter/>
     </div>
   );
 }
