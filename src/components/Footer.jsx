@@ -39,14 +39,16 @@ const Footer = () => {
       </div>
 
       {/* second part */}
-      <div className='flex flex-col lg:flex-row items-center lg:items-end  lg:justify-between pt-4 lg:pt-8 pb-12 text-[#233] px-12 space-y-6 text-sm md:text-base '>
+      <div className='flex flex-col lg:flex-row items-center lg:items-end  lg:justify-between pt-4 lg:pt-6 pb-12 text-fontColor px-12 space-y-6 text-sm md:text-base '>
         {/* contact */}
         <div>
           <p className='text-primary-green mb-1'>Contact :</p>
           <span className='flex items-center'>
             <FaRegEnvelope size={15} />
             <span className='cursor-pointer hover:underline'>
-              &nbsp;&nbsp;contact@everythinggreen.org
+              <a href='mailto@contact@everythinggreen.org'>
+                &nbsp;&nbsp;contact@everythinggreen.org
+              </a>
             </span>
           </span>
         </div>
@@ -66,6 +68,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* address */}
         <div className='text-center lg:text-start'>
           <p className='text-primary-green mb-1'>Address:</p>
           <p>China Hong Kong City Block 3, Room 1203,</p>

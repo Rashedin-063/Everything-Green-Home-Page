@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={logoWhite}
               alt='Everything Green'
-              className='h-14 hidden lg:block'
+              className='h-14 hidden lg:block ml-4'
             />
           </a>
 

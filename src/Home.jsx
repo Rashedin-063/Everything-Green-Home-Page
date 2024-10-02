@@ -1,9 +1,28 @@
-
+import Card from "./components/Card";
+import FirstText from "./components/FirstText";
+import SecondText from "./components/SecondText";
+import SectionTitle from "./components/SectionTitle";
 
 const Home = () => {
+
+const TitleOne = (
+  <span>
+    Sustainable <br /> Example Website
+  </span>
+);
+const TitleTwo = (
+  <span>
+    Learn More About <br /> Web Sustainability
+  </span>
+);
+
   return (
-    <div className='text-center text-red-500'>
-      <h1 className="text-red-600500">Home</h1>
+    <div className='max-w-2xl mx-auto'>
+      <FirstText />
+      <SectionTitle title={TitleOne} />
+     
+      <SectionTitle title={TitleTwo} />
+      <SecondText/>
     </div>
   );
 }

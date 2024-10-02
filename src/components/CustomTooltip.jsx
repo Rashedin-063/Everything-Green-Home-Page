@@ -5,8 +5,8 @@ const CustomTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))({
   [`& .MuiTooltip-tooltip`]: {
-    backgroundColor: '#dddddd',
-    color: '#666666',
+    backgroundColor: '#eeeeee',
+    color: '#333333',
     padding: '1.5rem 1rem',
     letterSpacing: '1.2px',
     lineHight: '150%',
