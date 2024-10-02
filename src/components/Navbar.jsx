@@ -14,13 +14,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className='navbar bg-white lg:bg-custom-gradient pt-4 lg:pt-6 px-4 flex justify-between items-center gap-'>
-        <div className='navbar-start lg:w-[53%] xl:w-[65%]'>
+      <div className='navbar bg-white lg:bg-custom-gradient pt-6 px-4 flex justify-between items-center'>
+        <div className='navbar-start lg:w-[53%] xl:w-[75%]'>
           {/* logo for large screen */}
           <a href='/' className='cursor-pointer text-xl'>
             <img
               src={logoWhite}
-              alt='Everything Green'
+              alt='greenWeb'
               className='h-14 hidden lg:block ml-4'
             />
           </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href='/' className='cursor-pointer text-xl'>
             <img
               src={logoBlack}
-              alt='Everything Green'
+              alt='greenWeb'
               className='h-14 lg:hidden md:ml-4'
             />
           </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
         {/* menu large screen & toggle btn */}
         <div className='navbar-end flex '>
           <ul className='menu menu-horizontal px-1 hidden text-white xl:text-base lg:flex lg:items-center'>
-            <Menu/>
+            <Menu />
             <span className='border border-white w-12 xl:w-16'></span>
           </ul>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             onClick={toggleMenu}
             className='rounded-md lg:hidden border border-black border-opacity-45 px-2 pt-6 h-14 w-12 -mt-2'
           >
-            <FaBars color='black' size={28} className='cursor-pointer'/>
+            <FaBars color='black' size={28} className='cursor-pointer' />
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
             isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
-         <Menu/>
+          <Menu />
         </ul>
       </div>
     </div>

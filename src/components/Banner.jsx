@@ -18,7 +18,7 @@ const Banner = () => {
     <div className='h-[642px] bg-custom-gradient py-8 flex flex-col-reverse lg:flex-row'>
       {/* text part */}
 
-      <div className='h-1/2 md:h-1/4 lg:h-full lg:w-1/2 lg:gap-8 text-white flex flex-col justify-center px-2 md:pl-12 lg:pl-16 xl:pl-20 md:pt-20 lg:-mt-[70px] xl:-mt-4 space-y-6 md:space-y-6 text-center md:text-start'>
+      <div className='h-1/2 md:h-1/4 lg:h-full lg:w-1/2 lg:gap-8 text-white flex flex-col justify-center px-2 md:pl-12 lg:pl-16 xl:pl-20 md:pt-20 lg:-mt-[80px] xl:-mt-10 space-y-6 md:space-y-6 text-center md:text-start'>
         <h1 className='text-4xl lg:text-[2.6vw]  font-bold lg:tracking-wide lg:leading-10 xl:leading-[50px] '>
           Unlock Insights for a Greener Future!
         </h1>

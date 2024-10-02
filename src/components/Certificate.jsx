@@ -1,6 +1,6 @@
 const Certificate = () => {
   return (
-    <div className='my-20 md:w-[750px] lg:w-[800px] mx-auto  shadow-lg'>
+    <div className='my-20 md:w-[750px] lg:w-[800px] mx-auto  shadow-lg cursor-pointer'>
       <div className='bg-primary-green px-8 py-3 text-white rounded-t-xl'>
         <h1 className='text-[26px]  font-semibold leading-[150%] md:text-center max-w-sm md:max-w-full'>
           claim and download your greenWeb certificate
