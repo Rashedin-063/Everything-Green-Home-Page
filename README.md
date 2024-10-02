@@ -1,8 +1,18 @@
-# React + Vite
+# Green Web Home Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This is a static homepage of [everythingreen.org](https://everythinggreen.org) website.
 
-Currently, two official plugins are available:
+## Technology:
+-  React
+-  HTML5
+-  Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Package Used:
+-  react-icons
+-  @mui/material
+-  @emotion/react
+-  @emotion/styled
+-  react-helmet-async
+
+## Live Link
+#[greenweb.surge.sh](https://greenweb.surge.sh)
