@@ -20,7 +20,7 @@ const TitleTwo = (
     <div className='max-w-2xl mx-auto'>
       <FirstText />
       <SectionTitle title={TitleOne} />
-     
+      <Card/>
       <SectionTitle title={TitleTwo} />
       <SecondText/>
     </div>
